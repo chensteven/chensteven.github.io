@@ -79,7 +79,7 @@ body {
 
 article {
     margin: 0 0 60px 0;
-    max-width: 450px;
+    max-width: 500px;
 }
 
 h3 {
@@ -99,9 +99,12 @@ ul {
 }
 
 p.hero-text {
+    font-family: "Meta Serif Pro";
     font-size: 3rem;
+    font-weight: 300;
     line-height: 1.2em;
     margin: 10px 0;
+    text-transform: capitalize;
 }
 
 ul {
@@ -147,7 +150,7 @@ span.label {
     font-weight: 400;
     line-height: 0;
 }
-
 .flag {
+    display: inline-block;
     font-size: 2em;
 }
