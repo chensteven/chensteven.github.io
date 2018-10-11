@@ -1,55 +1,42 @@
 @font-face {
     font-family: "Meta Serif Pro";
+    src: url("fonts/MetaSerifPro-Light.otf");
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Meta Serif Pro";
     src: url("fonts/MetaSerifPro-Book.otf");
     font-weight: 300;
 }
-
 @font-face {
     font-family: "Meta Serif Pro";
     src: url("fonts/MetaSerifPro-Bold.otf");
     font-weight: 700;
 }
-
-@font-face {
-    font-family: "Meta Serif Pro";
-    src: url("fonts/MetaSerifPro-Light.otf");
-    font-weight: 200;
-}
-
-@font-face {
-    font-family: "Meta Serif Pro";
-    src: url("fonts/MetaSerifPro-Book.otf");
-    font-weight: 300;
-}
-
 @font-face {
     font-family: "Neue Haas Unica Pro";
-    src: url("fonts/NeueHaasUnicaPro-Black.ttf");
-    font-weight: 900;
+    src: url("fonts/NeueHaasUnicaPro-UltraLight.ttf");
+    font-weight: 100;
 }
-
-@font-face {
-    font-family: "Neue Haas Unica Pro";
-    src: url("fonts/NeueHaasUnicaPro-Bold.ttf");
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: "Neue Haas Unica Pro";
-    src: url("fonts/NeueHaasUnicaPro-Light.ttf");
-    font-weight: 300;
-}
-
 @font-face {
     font-family: "Neue Haas Unica Pro";
     src: url("fonts/NeueHaasUnicaPro-Thin.ttf");
     font-weight: 200;
 }
-
 @font-face {
     font-family: "Neue Haas Unica Pro";
-    src: url("fonts/NeueHaasUnicaPro-UltraLight.ttf");
-    font-weight: 100;
+    src: url("fonts/NeueHaasUnicaPro-Light.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Neue Haas Unica Pro";
+    src: url("fonts/NeueHaasUnicaPro-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Neue Haas Unica Pro";
+    src: url("fonts/NeueHaasUnicaPro-Black.ttf");
+    font-weight: 900;
 }
 
 * {
@@ -61,7 +48,7 @@ body {
     position: fixed;
     font-family: "Neue Haas Unica Pro", sans-serif;
     font-weight: 500;
-    font-size: 10px;
+    font-size: 12px;
     width: 100vw;
     height: 100vh;
     overflow-y: scroll;
@@ -79,13 +66,13 @@ body {
 
 article {
     margin: 0 0 60px 0;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 h3 {
     margin: 0 0 18px 0;
     color: #636363;
-    font-size: 1.1rem;
+    font-size: 1.45rem;
     font-weight: 600;
     letter-spacing: .1rem;
     text-transform: uppercase;
@@ -93,15 +80,14 @@ h3 {
 
 p,
 ul {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     line-height: 1.8em;
     margin: 20px 0;
 }
 
 p.hero-text {
-    font-family: "Meta Serif Pro";
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 600;
     line-height: 1.2em;
     margin: 10px 0;
     text-transform: capitalize;
